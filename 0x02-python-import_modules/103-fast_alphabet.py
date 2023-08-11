@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-import string
-__import__('sys').stdout.write(string.ascii_uppercase + '\n')
+import builtins
+print(*map(chr, builtins.map(ord, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')), sep='', end='\n')
