@@ -2,6 +2,8 @@
 """
 This is a module that defines a class Square.
 """
+
+
 class Square:
     """
     This is a class that represents a square.
@@ -17,11 +19,11 @@ class Square:
 
         Args:
             size (int, optional): The size of the square (default is 0).
-            position (tuple, optional): The position of the square (default is (0, 0)).
+            pstion(tuple,optional):Thepstionof the square (default is (0, 0)).
 
         Raises:
-            TypeError: If size is not an integer, or if position is not a tuple of two positive integers.
-            ValueError: If size is less than 0, or if position contains negative integers.
+            TypeError: Ifsizeisnotanintger,orifpositionisnotatupleoftwo+veint.
+            ValueError: If size is less than 0,or ifpositioncontains -ve ints.
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
