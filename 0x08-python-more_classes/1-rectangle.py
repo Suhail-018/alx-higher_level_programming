@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-class Rectangle:
-  """
+"""
   This class defines a rectangle.
 
   Attributes:
@@ -13,6 +12,8 @@ class Rectangle:
     set_width: Sets the width of the rectangle.
     set_height: Sets the height of the rectangle.
   """
+
+class Rectangle:
 
   def __init__(self, width=0, height=0):
     """
