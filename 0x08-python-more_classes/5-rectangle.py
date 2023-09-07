@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 """
-This module defines a Rectangle class that represents a rectangle with width and height attributes.
+ThismoduledefineRectangleclassrepresentrectanglewithwidthand height attributes
 The width and height must be non-negative integers.
 """
+
+
 class Rectangle:
     """
     This class defines a rectangle.
@@ -123,7 +125,7 @@ class Rectangle:
             str: The string representation of the rectangle.
         """
         return f"Rectangle({self.__width}, {self.__height})"
-     
+
     def __del__(self):
         """
         Destructor method to prinhen an instance of Rectangle is deleted.
