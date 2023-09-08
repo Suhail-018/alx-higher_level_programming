@@ -1,0 +1,29 @@
+# How to Use say_my_name function
+===============================
+
+This function prints "My name is <first name> <last name>".
+
+Valid Input
+===========
+
+Let's start by testing the function with valid inputs.
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+>>> say_my_name("John", "Smith")
+My name is John Smith
+
+>>> say_my_name("Walter", "White")
+My name is Walter White
+
+>>> say_my_name("Bob")
+My name is Bob
+
+Invalid Input
+=============
+
+The function should raise a TypeError if the inputs are not valid.
+
+>>> say_my_name(12, "White")
+Traceback (most recent call last):
+    ...
+TypeError: first_name must be a string
+
