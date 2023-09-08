@@ -25,6 +25,9 @@ It also works with integer and float combinations.
 
     >>> add_integer(100.3, -2)
     98
+    
+    >>> add_integer(1.4, 2)
+    3
 
 Non-Numbers
 -----------
@@ -43,3 +46,7 @@ If one of the arguments is not an integer or float, a ``TypeError`` is raised.
         ...
     TypeError: a must be an integer or b must be an integer
 
+    >>> add_integer(1, "2")
+    Traceback (most recent call last):
+        ...
+    TypeError: a must be an integer or b must be an integer
