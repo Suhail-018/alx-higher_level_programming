@@ -5,6 +5,7 @@ Module: 4-print_square
 This module defines a function `print_square` that prints a squarewithchar'#'.
 """
 
+
 def print_square(size):
     """
     Prints a square with the character #.

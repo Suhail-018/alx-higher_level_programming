@@ -22,7 +22,7 @@ def text_indentation(text):
         raise TypeError("text must be a string")
 
     punctuations = [".", "?", ":"]
-    
+
     lines = []
     line = ""
 
