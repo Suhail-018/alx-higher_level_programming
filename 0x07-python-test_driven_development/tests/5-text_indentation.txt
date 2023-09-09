@@ -37,6 +37,20 @@ No punctuation characters in this text.
 >>> text_indentation("   Leading spaces are preserved")
 Leading spaces are preserved
 
+>>> text_indentation("Holberton.School")
+Holberton.
+<BLANKLINE>
+School
+
+>>> text_indentation("Holberton. School? How are you: John")
+Holberton.
+<BLANKLINE>
+School?
+<BLANKLINE>
+How are you:
+<BLANKLINE>
+John
+
 Invalid Input
 =============
 
