@@ -3,6 +3,7 @@
 This module contains the Rectangle class.
 """
 
+
 class BaseGeometry:
     """
     BaseGeometry class with area() and integer_validator methods.
@@ -20,13 +21,14 @@ class BaseGeometry:
         - name: A string representing the name of the value.
         - value: The value to validate.
 
-        Raise a TypeError if value is not an integer with the message "<name> must be an integer".
-        Raise a ValueError if value is less than or equal to 0 with the message "<name> must be greater than 0".
+        Raise a TypeError if value is not an integer with the message".
+        Raise a ValueError if value is less than or equal to 0 with the messag
         """
         if not isinstance(value, int):
             raise TypeError("{} must be an integer".format(name))
         if value <= 0:
             raise ValueError("{} must be greater than 0".format(name))
+
 
 class Rectangle(BaseGeometry):
     """

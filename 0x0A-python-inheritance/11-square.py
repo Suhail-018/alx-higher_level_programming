@@ -21,8 +21,8 @@ class BaseGeometry:
         - name: A string representing the name of the value.
         - value: The value to validate.
 
-        Raise a TypeError if value is not ame> must be an integer".
-        Raise a ValueError if value is les"<name> must be greater than 0".
+        Raise a TypeError if value is not an integer with the message
+        Raise a ValueError if value is less than or equal to 0 with the messag
         """
         if not isinstance(value, int):
             raise TypeError("{} must be an integer".format(name))
@@ -84,4 +84,4 @@ class Square(Rectangle):
         """
         Return a string representation of the Square.
         """
-        return "[Rectangle] {}/{}".format(self.size, self.size)
+        return "[Square] {}/{}".format(self.size, self.size)

@@ -3,6 +3,7 @@
 This module contains the BaseGeometry class.
 """
 
+
 class BaseGeometry:
     """
     BaseGeometry class with an area() method that raises an exception.
