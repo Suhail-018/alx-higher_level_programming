@@ -114,7 +114,7 @@ class Rectangle(Base):
             "x": self.x,
             "y": self.y
         }
-    
+
     def display(self):
         """PrintRectangleinstancewith'#'chartaking care of x and y offsets."""
         for i in range(self.__y):
@@ -122,7 +122,6 @@ class Rectangle(Base):
         for i in range(self.__height):
             print(" " * self.__x + "#" * self.__width)
 
-    
     def __str__(self):
         """Return a string representation of the Rectangle instance."""
         return "[Rectangle] ({}) {}/{} - {}/{}".format(
