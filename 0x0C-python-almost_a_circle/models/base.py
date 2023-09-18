@@ -76,7 +76,7 @@ class Base:
             dictionary (dict): A dictionary containing attribute-value pairs.
 
         Returns:
-            Base instance: Aninstanceoftheclasswithattributessetfromdictionary  
+           Base instance: Aninstanceoftheclasswithattributessetfromdictionary
             """
         if cls.__name__ == "Rectangle":
             dummy_instance = cls(1, 1)
