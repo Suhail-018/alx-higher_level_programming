@@ -48,10 +48,9 @@ class Base:
 
         filename = f"{cls.__name__}.json"
         diclist = [obj.to_dictionary() for obj in list_objs]
-        dicjsonlist = cls.to_json_string(diclist)
 
         with open(filename, mode="w") as file:
-            json.dump(dicjsonlist, file)
+            json.dump(diclist, file)
 
     @staticmethod
     def from_json_string(json_string):
