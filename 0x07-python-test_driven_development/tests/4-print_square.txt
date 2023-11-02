@@ -27,7 +27,7 @@ Let's start by testing the function with valid inputs.
 ##########
 
 >>> print_square(0)
-(no output)
+
 
 >>> print_square(1)
 #
