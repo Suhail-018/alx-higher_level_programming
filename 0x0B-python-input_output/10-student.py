@@ -4,6 +4,7 @@
 This module defines a Student class.
 """
 
+
 class Student:
     """
     A class that defines a student by their first name, last name, and age.
