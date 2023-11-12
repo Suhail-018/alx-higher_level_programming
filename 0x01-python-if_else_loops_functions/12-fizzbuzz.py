@@ -8,7 +8,6 @@ def fizzbuzz():
         elif i % 5 == 0:
             print("Buzz", end=" ")
         else:
-            print(i, end=" " if i != 100 else "")
-    print()        
+            print(i, end=" " if i != 100 else "")   
 # Call the function to print the FizzBuzz sequence
 
