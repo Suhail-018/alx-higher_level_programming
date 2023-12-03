@@ -11,7 +11,7 @@ def safe_print_list_integers(my_list=[], x=0):
             else:
                 raise IndexError
     except (IndexError, TypeError):
-        pass  # H and TypeError (non-integer)
+        return 1  # H and TypeError (non-integer)
 
     print()  # Print a newline after printing the integers
     return printed  # Return the number of integers actually printed
