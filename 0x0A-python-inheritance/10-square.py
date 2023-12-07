@@ -80,10 +80,10 @@ class Square(Rectangle):
         
      def area(self):
         """
-        Calculate and return the area of the Rectangle.
+        Calculate and return the area of the Square.
 
         Returns:
-            The area of the rectangle (width * height).
+            The area of the square (size * size).
         """
         return self.__size * self.__size   
     def __str__(self):
