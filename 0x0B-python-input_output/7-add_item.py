@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-The add_item_managerencapsulatesfunctionalitymanaging a list$savingto a JSON file.
+This module encapsulatesfunctionalitymanaging a list$savingto a JSON file.
 """
 import sys
 from os.path import exists
@@ -10,11 +10,12 @@ load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
 
 def add_item():
      """
+     
      Manage a list, add command-line arguments, and save the updated list to a JSON file.
      Parameters:
-     None
+     list
      Returns:
-     None
+     list
      """
     # Check if the add_item.json file exists
     if exists("add_item.json"):
