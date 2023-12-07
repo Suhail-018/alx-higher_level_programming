@@ -76,12 +76,11 @@ class Square(Rectangle):
         Args:
             size: The size of the square.
         """
-        self.size = size
         self.integer_validator("size", size)
-        super().__init__(size, size)
-
+        self.__size = size
+       
     def __str__(self):
         """
         Return a string representation of the Square.
         """
-        return "[Rectangle] {}/{}".format(self.size, self.size)
+        return "[Rectangle] {}/{}".format(self.__size, self.__size)
