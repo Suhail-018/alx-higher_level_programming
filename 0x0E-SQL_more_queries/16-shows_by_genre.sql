@@ -1,5 +1,4 @@
 -- 16-shows_by_genre.sql
-
 -- Use the hbtn_0d_tvshows database
 USE hbtn_0d_tvshows;
 

@@ -1,5 +1,4 @@
 -- 9-cities_by_state_join.sql
-
 -- Use the hbtn_0d_usa database
 USE hbtn_0d_usa;
 

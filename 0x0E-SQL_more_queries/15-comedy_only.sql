@@ -1,5 +1,4 @@
 -- 15-comedy_only.sql
-
 -- Use the hbtn_0d_tvshows database
 USE hbtn_0d_tvshows;
 
