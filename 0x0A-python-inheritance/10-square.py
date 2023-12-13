@@ -68,7 +68,6 @@ class Square(Rectangle):
     """
     Square class that inherits from Rectangle.
     """
-
     def __init__(self, size):
         """
         Initialize a Square with size.
@@ -76,12 +75,20 @@ class Square(Rectangle):
         Args:
             size: The size of the square.
         """
-        self.size = size
         self.integer_validator("size", size)
-        super().__init__(size, size)
+        self.__size = size
+        
+     def area(self):
+        """
+        Calculate and return the area of the Square.
 
-    def __str__(self):
+        Returns:
+            The area of the square (size * size).
+        """
+        return self.__size * self.__size
+         
+     def __str__(self):
         """
         Return a string representation of the Square.
         """
-        return "[Rectangle] {}/{}".format(self.size, self.size)
+        return "[Square] {}/{}".format(self.__size, self.__size)
