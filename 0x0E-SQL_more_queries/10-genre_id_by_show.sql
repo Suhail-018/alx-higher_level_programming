@@ -1,7 +1,6 @@
 -- 10-genre_id_by_show.sql
 
--- Use the hbtn_0d_tvshows database
-USE hbtn_0d_tvshows;
+-- Use the hbtn_0d_tvshows databas
 
 -- Select required columns from tv_shows and tv_show_genres tables
 SELECT tv_shows.title, tv_show_genres.genre_id

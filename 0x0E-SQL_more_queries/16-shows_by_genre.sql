@@ -1,6 +1,5 @@
 -- 16-shows_by_genre.sql
 -- Use the hbtn_0d_tvshows database
-USE hbtn_0d_tvshows;
 
 -- Select show titles and linked genres
 SELECT tv_shows.title, tv_genres.name
