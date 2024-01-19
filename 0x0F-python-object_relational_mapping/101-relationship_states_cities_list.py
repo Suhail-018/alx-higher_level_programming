@@ -23,4 +23,4 @@ if __name__ == "__main__":
     for recd in session.query(State).order_by(State.id):
         print(f"{recd.id}: {recd.name}")
         for city in recd.cities:
-            print(f"{city.id}: {city.name}")
+            print(f"    {city.id}: {city.name}")
