@@ -17,7 +17,7 @@ if __name__ == "__main__":
     session = Session()
 
     # Query and print the first State object using get()
-    first_state = session.query(State).order_by(State.id).get(1)
+    first_state = session.query(State).first()
 
     if first_state:
         print("{}: {}".format(first_state.id, first_state.name))
