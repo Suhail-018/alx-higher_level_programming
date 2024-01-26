@@ -6,10 +6,7 @@ import urllib.request as req
 import urllib.parse as parse
 import sys
 
-
-
 if __name__ == "__main__":
-   
     url = sys.argv[1]
     email = sys.argv[2]
 
