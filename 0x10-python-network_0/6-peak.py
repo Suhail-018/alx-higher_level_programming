@@ -14,6 +14,5 @@ def find_peak(list_of_integers):
     if li_length == 0:
         return (None)
 
-    
     list_of_integers.sort()
     return (list_of_integers[-1])
